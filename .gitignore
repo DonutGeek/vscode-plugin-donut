@@ -1,0 +1,18 @@
+# VS Code 扩展开发相关
+.vscode-test/
+.vscode-test.*/
+out/
+dist/
+node_modules/
+
+# 编译输出
+**/*.js
+**/*.js.map
+!webpack.config.js
+
+# 临时文件
+.DS_Store
+Thumbs.db
+
+# 用户特定文件（不提交到Git）
+config.local.json
