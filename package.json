@@ -2,7 +2,15 @@
   "name": "vscode-plugin-donut",
   "displayName": "vscode-plugin-donut",
   "description": "来自牛马摸鱼的产物",
+  "keywords": [
+    "vscode-plugin-donut",
+    "donut",
+    "vscode-plugin",
+    "牛马",
+    "张志豪"
+  ],
   "version": "0.0.1",
+  "publisher": "donut",
   "repository": {
     "type": "git",
     "url": "https://github.com/DonutGeek/vscode-plugin-donut.git"
@@ -20,10 +28,6 @@
       {
         "command": "vscode-plugin-donut.copyName",
         "title": "复制名称"
-      },
-      {
-        "command": "vscode-plugin-donut.helloWorld",
-        "title": "Hello World"
       }
     ],
     "menus": {
@@ -37,6 +41,8 @@
   },
   "scripts": {
     "vscode:prepublish": "pnpm run package",
+    "vscode:publish": "vsce publish",
+    "vscode:package": "vsce package",
     "compile": "webpack",
     "watch": "webpack --watch",
     "package": "webpack --mode production --devtool hidden-source-map",
