@@ -2,14 +2,16 @@
   "name": "vscode-plugin-donut",
   "displayName": "vscode-plugin-donut",
   "description": "来自牛马摸鱼的产物",
+  "icon": "public/logo.png",
   "keywords": [
     "vscode-plugin-donut",
     "donut",
-    "vscode-plugin",
     "牛马",
-    "张志豪"
+    "张志豪",
+    "郭明亮",
+    "copy"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "donut",
   "repository": {
     "type": "git",
@@ -40,6 +42,7 @@
     }
   },
   "scripts": {
+    "release": "npm version patch && vsce publish",
     "vscode:prepublish": "pnpm run package",
     "vscode:publish": "vsce publish",
     "vscode:package": "vsce package",
