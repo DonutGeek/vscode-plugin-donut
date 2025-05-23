@@ -16,3 +16,6 @@ Thumbs.db
 
 # 用户特定文件（不提交到Git）
 config.local.json
+
+# 扩展打包文件（不提交到Git）
+*.vsix

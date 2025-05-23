@@ -11,14 +11,14 @@
     "郭明亮",
     "copy"
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "donut",
   "repository": {
     "type": "git",
     "url": "https://github.com/DonutGeek/vscode-plugin-donut.git"
   },
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "^1.67.0"
   },
   "categories": [
     "Other"
@@ -56,7 +56,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.100.0",
+    "@types/vscode": "1.65.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
